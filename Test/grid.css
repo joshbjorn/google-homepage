@@ -1,0 +1,58 @@
+.googleappsgrid {
+    height: 496px;
+    width: 320px;
+}
+
+.grid li {
+    display: inline-block;
+    background-image: url(../Assets/toolbaricons.png);
+    background-position: 0 -345px;
+}
+
+.accountimg {
+    
+}
+
+li.searchimg {
+    background-position: 0 -345px;
+}
+
+.mapsimg {
+    background-position: 0 -1380px;
+}
+
+.youtubeimg {
+    background-position: 0 -138px;
+}
+
+.playimg {
+    background-position: 0 -1518px;
+}
+
+.gmailimg {
+    background-position: 0 -759px;
+}
+
+.contactsimg {
+    background-position: 0 -1863px;   
+}
+
+.driveimg {
+    background-position: 0 -1587px;
+}
+
+.calendarimg {
+    background-position: 0 -966px;
+}
+
+.translateimg {
+    background-position: 0 -690px;
+}
+
+.photosimg {
+    background-position: 0 -483px;
+}
+
+.shoppingimg {
+    background-position: 0 -897px;
+}

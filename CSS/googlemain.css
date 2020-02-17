@@ -1,0 +1,181 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #3d3e41;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	display: block; 
+	height: 30px; 
+	margin-top: 20px;
+	
+}
+
+div.left, div.right {
+	display: inline-block;
+}
+
+div.left {
+	float: left;
+	margin-left: 20px;
+}
+
+div.right {
+	float: right;
+	margin-right: 32px;
+}
+
+.left a, .right a {
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	height: 30px; 
+	margin: 0 10px;
+	padding-top: 8px;
+}
+
+.squarenav, .profileicon {
+	position: relative;
+}
+
+.profileicon {
+	border-radius: 28px;
+    margin-left: 14px;
+    top: 8px;
+}
+
+.squarenav {
+	top: 5px;
+	opacity: 0.6;
+}
+
+.logomain {
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	height: 233px;
+}
+
+.logomain img {
+	width: 272px;
+	height: 91px;
+	position: absolute; 
+	left: 50%;
+	top: 65%;
+	margin-left: -136px;
+}
+
+.searchblock {
+	display: block;
+	height: 52px;
+	text-align: center;
+	padding: 28px;
+}
+
+input.searchbar {
+	display: inline;
+	position: relative;
+	height: 38px;
+	width: 582px; 
+	margin-top: 6px;
+	border: 1px solid rgb(217, 217, 217);
+	border-radius: 30px;
+}
+
+.searchbar:hover, .searchbar:active {
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border: none;
+}
+
+.voicesearch {
+	position: absolute;
+    display: inline;
+    height: 24px;
+    width: 24px;
+    margin-top: 16px;
+    right: 446px;
+}
+
+div.searchbuttons {
+	display: block;
+	height: 58px;
+	text-align: center;
+}
+
+.submit, .feelinglucky {
+	display: inline-block;
+	height: 36px;
+	width: 127px;
+	font-size: 14px;
+	font-family: arial;
+	color: #5f6368;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	border: none;
+	margin: 0 4px;
+	padding: 0px 6px;
+}
+
+.submit:hover, .feelinglucky:hover {
+	color: #272829;
+	background-color: #f5f5f5;
+	border: 0.7px solid #bdbdbd;
+
+}
+
+.footer {
+	height: 82px;
+	margin-top: 229px;
+
+}
+
+.UK, .links {
+	position: relative; 
+	height: 41px;
+	background-color:#f2f2f2;
+	border-top: 0.5px solid #e0e0e0;
+}
+
+.f_left, .f_right {
+	display: inline-block;
+	height: 13px;
+    top: 50%;
+    margin-top: -7.5px;
+
+}
+
+.f_left { 
+	margin-left: 20px;
+	position: absolute;
+}
+
+.UK p {
+	font-size: 15px;
+	padding-left: 30px;
+	position: relative;
+    height: 15px;
+    top: 50%;
+	margin-top: -7.5px;
+	color: #3d3e41;
+}
+
+.f_right {
+	float: right;
+	margin-right: 20px;
+	position: relative;
+}
+
+.f_left a, .f_right a {
+	box-sizing: content-box;
+	padding: 10px;
+}
+
+
