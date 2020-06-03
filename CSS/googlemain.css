@@ -81,7 +81,7 @@ div.right {
 }
 
 input.searchbar {
-	display: inline;
+	display: inline-block;
 	position: relative;
 	height: 38px;
 	width: 582px; 
@@ -97,7 +97,7 @@ input.searchbar {
 
 .voicesearch {
 	position: absolute;
-    display: inline;
+    display: inline-block;
     height: 24px;
     width: 24px;
     margin-top: 16px;
